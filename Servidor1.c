@@ -7,6 +7,16 @@
 #include <stdio.h>
 #include <mysql.h>
 
+typedef struct{
+	char nombre [20];
+	int socket;
+}Conectado;
+
+typedef struct{
+	Conectado conectados[100];
+	int num;
+}ListaConectados;
+
 int main(int argc, char *argv[])
 {
 	int sock_conn, sock_listen, ret;
@@ -27,7 +37,7 @@ int main(int argc, char *argv[])
 	//htonl formatea el numero que recibe al formato necesario
 	serv_adr.sin_addr.s_addr = htonl(INADDR_ANY);
 	// escucharemos en el port 9050
-	serv_adr.sin_port = htons(9062);
+	serv_adr.sin_port = htons(9063);
 	if (bind(sock_listen, (struct sockaddr *) &serv_adr, sizeof(serv_adr)) < 0)
 		printf ("Error al bind");
 	//La cola de peticiones pendientes no podr? ser superior a 4
@@ -312,7 +322,7 @@ int main(int argc, char *argv[])
 					exit (1);
 				}
 				//inicializar la conexin
-				conn = mysql_real_connect (conn, "localhost","root", "mysql", "basedatos",0, NULL, 0);
+				conn = mysql_real_connect (conn, "localhost","root", "mysql", "juego",0, NULL, 0);
 				if (conn==NULL) {
 					printf ("Error al inicializar la conexion: %u %s\n", 
 							mysql_errno(conn), mysql_error(conn));
@@ -362,7 +372,7 @@ int main(int argc, char *argv[])
 					exit (1);
 				}
 				//inicializar la conexin
-				conn = mysql_real_connect (conn, "localhost","root", "mysql", "basedatos",0, NULL, 0);
+				conn = mysql_real_connect (conn, "localhost","root", "mysql", "juego",0, NULL, 0);
 				if (conn==NULL) {
 					sprintf ("Error al inicializar la conexion: %u %s\n", 
 							 mysql_errno(conn), mysql_error(conn));
@@ -378,7 +388,7 @@ int main(int argc, char *argv[])
 					exit (1);
 				}
 				
-				resultado = mysql_store_result (conn);
+				resultado = mysql_store_result(conn);
 				row = mysql_fetch_row (resultado);
 				
 				if (row == NULL)
