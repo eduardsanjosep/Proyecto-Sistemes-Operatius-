@@ -185,5 +185,20 @@ namespace Juego
                 MessageBox.Show(mensaje);
             }
         }
+
+        private void masganadas_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
+
+        private void conectados_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

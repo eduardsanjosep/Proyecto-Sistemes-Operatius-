@@ -55,6 +55,7 @@
             this.log = new System.Windows.Forms.Button();
             this.consulta = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
+            this.conectados = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -84,6 +85,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.groupBox1.Controls.Add(this.conectados);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.consulta);
             this.groupBox1.Controls.Add(this.masganadas);
@@ -161,6 +163,7 @@
             this.masganadas.TabStop = true;
             this.masganadas.Text = "Jugador con más partidas jugadas";
             this.masganadas.UseVisualStyleBackColor = true;
+            this.masganadas.CheckedChanged += new System.EventHandler(this.masganadas_CheckedChanged);
             // 
             // groupBox2
             // 
@@ -173,7 +176,7 @@
             this.groupBox2.Controls.Add(this.Label10);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Location = new System.Drawing.Point(479, 125);
+            this.groupBox2.Location = new System.Drawing.Point(478, 125);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(356, 279);
             this.groupBox2.TabIndex = 3;
@@ -350,6 +353,19 @@
             this.label7.TabIndex = 6;
             this.label7.Text = "CONSULTAS";
             // 
+            // conectados
+            // 
+            this.conectados.AutoSize = true;
+            this.conectados.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.conectados.Location = new System.Drawing.Point(34, 322);
+            this.conectados.Name = "conectados";
+            this.conectados.Size = new System.Drawing.Size(167, 20);
+            this.conectados.TabIndex = 7;
+            this.conectados.TabStop = true;
+            this.conectados.Text = "Jugadores conectados";
+            this.conectados.UseVisualStyleBackColor = true;
+            this.conectados.CheckedChanged += new System.EventHandler(this.conectados_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -404,6 +420,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button consulta;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.RadioButton conectados;
     }
 }
 
