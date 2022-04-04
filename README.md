@@ -10,7 +10,7 @@ Versión 1 comunicada por Antoni Garcia Pérez
 URL: XXXXXXXXX
 
 --Version 2: servidor concurrente--
-Versión 2 generada por Eduard Sanjosé Peña \n
+Versión 2 generada por Eduard Sanjosé Peña
 Versión 2 verificada por Antoni Garcia Pérez
 Versión 2 comunicada por Adrián Castillo López
 URL: https://www.youtube.com/watch?v=FB9n5KrvZoY
