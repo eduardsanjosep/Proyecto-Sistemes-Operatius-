@@ -1,0 +1,21 @@
+C:\Users\adcas\source\repos\Juego\bin\Debug\Juego.exe.config
+C:\Users\adcas\source\repos\Juego\bin\Debug\Juego.exe
+C:\Users\adcas\source\repos\Juego\bin\Debug\Juego.pdb
+C:\Users\adcas\source\repos\Juego\obj\Debug\Juego.csproj.AssemblyReference.cache
+C:\Users\adcas\source\repos\Juego\obj\Debug\Juego.csproj.SuggestedBindingRedirects.cache
+C:\Users\adcas\source\repos\Juego\obj\Debug\Juego.Form1.resources
+C:\Users\adcas\source\repos\Juego\obj\Debug\Juego.Properties.Resources.resources
+C:\Users\adcas\source\repos\Juego\obj\Debug\Juego.csproj.GenerateResource.cache
+C:\Users\adcas\source\repos\Juego\obj\Debug\Juego.csproj.CoreCompileInputs.cache
+C:\Users\adcas\source\repos\Juego\obj\Debug\Juego.exe
+C:\Users\adcas\source\repos\Juego\obj\Debug\Juego.pdb
+C:\share\Sistemes Operatius\Proyecto\juego v2\bin\Debug\Juego.exe.config
+C:\share\Sistemes Operatius\Proyecto\juego v2\bin\Debug\Juego.exe
+C:\share\Sistemes Operatius\Proyecto\juego v2\bin\Debug\Juego.pdb
+C:\share\Sistemes Operatius\Proyecto\juego v2\obj\Debug\Juego.csprojAssemblyReference.cache
+C:\share\Sistemes Operatius\Proyecto\juego v2\obj\Debug\Juego.Form1.resources
+C:\share\Sistemes Operatius\Proyecto\juego v2\obj\Debug\Juego.Properties.Resources.resources
+C:\share\Sistemes Operatius\Proyecto\juego v2\obj\Debug\Juego.csproj.GenerateResource.cache
+C:\share\Sistemes Operatius\Proyecto\juego v2\obj\Debug\Juego.csproj.CoreCompileInputs.cache
+C:\share\Sistemes Operatius\Proyecto\juego v2\obj\Debug\Juego.exe
+C:\share\Sistemes Operatius\Proyecto\juego v2\obj\Debug\Juego.pdb
