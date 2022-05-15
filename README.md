@@ -20,3 +20,14 @@ URL: https://www.youtube.com/watch?v=FB9n5KrvZoY
  Versión 3 generada por Adrián Castillo Pérez
  Versión 3 verificada por Eduard Sanjosé Peña
  Versión 3 comunicada por Antoni Garcia Pérez
+
+--Versión 4: Invitación dejugador
+ Versión 4 generada por Antoni Garcia Pérez
+ Versión 4 verificada por Eduard Sanjosé Peña
+ Versión 4 comunicada por Adrián Castillo Pérez
+ 
+--Versión 5: Invitación dejugador
+ Versión 5 generada por Adrián Castillo Pérez
+ Versión 5 verificada por Antoni Garcia Pérez
+ Versión 5 comunicada por Eduard Sanjosé Peña
+ URL: https://drive.google.com/drive/u/1/folders/1pTwxVTE0__c-dELUkIEVjUnwkfxbAzZ3
