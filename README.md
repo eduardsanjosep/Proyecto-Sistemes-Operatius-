@@ -39,6 +39,7 @@ URL: https://www.youtube.com/watch?v=FB9n5KrvZoY
  Versión 4 comunicada por Adrián Castillo Pérez
  
 --Versión 5: Invitación dejugador--
+
  Versión 5 generada por Adrián Castillo Pérez
  
  Versión 5 verificada por Antoni Garcia Pérez
